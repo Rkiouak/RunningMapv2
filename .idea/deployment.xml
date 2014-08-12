@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="rkiouak.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/html/projects/RunningMapv2" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="" local="$PROJECT_DIR$/target/work/plugins/tomcat-7.0.55" />
+            <mapping local="$PROJECT_DIR$/target/work/plugins/cache-1.1.7" />
+            <mapping local="$PROJECT_DIR$/target/work/plugins/hibernate4-4.3.5.5" />
+            <mapping local="$PROJECT_DIR$/target/work/plugins/database-migration-1.4.0" />
+            <mapping local="$PROJECT_DIR$/target/work/plugins/webxml-1.4.1" />
+            <mapping local="$PROJECT_DIR$/target/work/plugins/asset-pipeline-1.9.6" />
+            <mapping local="$PROJECT_DIR$/target/work/plugins/jquery-1.11.1" />
+            <mapping local="$PROJECT_DIR$/target/work/plugins/scaffolding-2.1.2" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+

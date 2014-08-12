@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="38197888">
+    <data-source source="LOCAL" name="RunningMapv2 dev" uuid="f3033ba6-f76f-4fe6-9844-f9ad9f78798d">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE</jdbc-url>
+      <user-name>matt</user-name>
+      <user-password>dfc8dfcbdfcedffadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="matthews-mbp.hsd1.ma.comcast.net" id="0" name="RunDataSpec" package="runningmapv2" tests="1" time="3.255" timestamp="2014-08-07T20:06:57">
+      <properties />
+
+      <testcase classname="runningmapv2.RunDataSpec" name="test createParsedGpxData" time="3.19">
+          <error message="No signature of method: java.util.LinkedHashMap.put() is applicable for argument types: (java.util.LinkedHashMap) values: [[lon:-71.116520, lat:42.348301]]&#xa;Possible solutions: put(java.lang.Object, java.lang.Object), put(java.lang.Object, java.lang.Object), get(java.lang.Object), get(java.lang.Object), get(java.lang.Object), plus(java.util.Collection)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: java.util.LinkedHashMap.put() is applicable for argument types: (java.util.LinkedHashMap) values: [[lon:-71.116520, lat:42.348301]]
+Possible solutions: put(java.lang.Object, java.lang.Object), put(java.lang.Object, java.lang.Object), get(java.lang.Object), get(java.lang.Object), get(java.lang.Object), plus(java.util.Collection)
+	at runningmapv2.RunDataSpec.test createParsedGpxData(RunDataSpec.groovy:61)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test createParsedGpxData--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test createParsedGpxData--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
