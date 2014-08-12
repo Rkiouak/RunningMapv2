@@ -49,14 +49,55 @@ class RunDataSpec extends Specification {
      </gpxtpx:TrackPointExtension>
     </extensions>
    </trkpt>
+   <trkpt lon="-71.116516" lat="42.348325">
+    <ele>12.765633</ele>
+    <time>2014-08-04T09:38:08Z</time>
+    <extensions>
+     <gpxtpx:TrackPointExtension>
+      <gpxtpx:hr>97</gpxtpx:hr>
+     </gpxtpx:TrackPointExtension>
+    </extensions>
+   </trkpt>
+   <trkpt lon="-71.116514" lat="42.348340">
+    <ele>12.805253</ele>
+    <time>2014-08-04T09:38:09Z</time>
+    <extensions>
+     <gpxtpx:TrackPointExtension>
+      <gpxtpx:hr>97</gpxtpx:hr>
+     </gpxtpx:TrackPointExtension>
+    </extensions>
+   </trkpt>
+   <trkpt lon="-71.116512" lat="42.348355">
+    <ele>12.721167</ele>
+    <time>2014-08-04T09:38:10Z</time>
+    <extensions>
+     <gpxtpx:TrackPointExtension>
+      <gpxtpx:hr>96</gpxtpx:hr>
+     </gpxtpx:TrackPointExtension>
+    </extensions>
+   </trkpt>
+   <trkpt lon="-71.116509" lat="42.348370">
+    <ele>12.702348</ele>
+    <time>2014-08-04T09:38:11Z</time>
+    <extensions>
+     <gpxtpx:TrackPointExtension>
+      <gpxtpx:hr>95</gpxtpx:hr>
+     </gpxtpx:TrackPointExtension>
+    </extensions>
+   </trkpt>
   </trkseg>
  </trk>
-</gpx>'''
+</gpx>
+'''
 
 
         def map = [:]
         map[0] = [ lon: "-71.116520", lat: "42.348301"]
         map[1] =  [lon: "-71.116518", lat:"42.348310"]
+        map[2] = [lon: "-71.116516", lat: "42.348325"]
+        map[3] = [lon: "-71.116514", lat: "42.348340"]
+        map[4] = [lon: "-71.116512", lat: "42.348355"]
+        map[5] = [lon:"-71.116509", lat:"42.348370"]
 
         then:  "createParsedGpxData pulls lon & lat into map"
         RunData runDataInstance = new RunData(gpxData: (testString as byte[]))
