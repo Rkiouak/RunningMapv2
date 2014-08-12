@@ -36,12 +36,12 @@ class RunData {
 
             xmlStr.trk.trkseg.trkpt.each { trkpt ->
 
-                println "${trkpt.'@lon'} ${trkpt.'@lat'}"
+
                 toStore[counter++]=[lon: trkpt.'@lon', lat: trkpt.'@lat']
             }
 
             parsedGPX = toStore
-            println "${toStore[0]['lon']}"
+
             return toStore
         }
     }
